@@ -1,0 +1,28 @@
+.headerMovieCard {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("https://wallpapercave.com/wp/MOprUfX.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: alpha(opacity=50);
+}
+
+.headerMovieCard h1 {
+  margin: 0;
+  font-size: 65px;
+  letter-spacing: 4px;
+  color: var(--bs-primary-color);
+  font-weight: 900;
+  -webkit-text-stroke: 2px var(--bs-primary-color);
+  position: relative;
+  top: 30%;
+  margin: 0;
+}
+
+.headerMovieCard h2 {
+  position: relative;
+  top: 30%;
+  color: var(--bs-letter-color);
+  font-size: 28px;
+}

@@ -1,0 +1,17 @@
+.footer {
+  color: var(--bs-navbar-letter-color);
+  position: absolute;
+  bottom: 0%;
+  right: 35%;
+  left: 35%;
+}
+
+@media (max-width: 1204px) {
+  .footer {
+    position: relative;
+    /* text-align: justify; */
+    right: 0;
+    left: 0;
+    text-align-last: center;
+  }
+}

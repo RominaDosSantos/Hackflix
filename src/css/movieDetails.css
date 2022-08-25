@@ -1,0 +1,84 @@
+#iframeTrailer {
+  transform: scale(2.26);
+  -webkit-mask-image: linear-gradient(to top, transparent 20%, black 100%);
+  mask-image: linear-gradient(to top, transparent 5%, black 100%);
+}
+
+.trailerDiv {
+  height: 50vh;
+  max-width: 100vw;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.moviesDates {
+  color: var(--bs-letter-color);
+  text-align: left;
+  margin-top: 20px;
+}
+
+.datesOfMovies img {
+  bottom: 50px;
+  opacity: 0.9;
+  text-align: left;
+}
+
+.datesOfMovies {
+  text-align: left;
+}
+
+.h2TitleMovie {
+  position: relative;
+  color: var(--bs-primary-color);
+}
+
+.moviesDates h3 {
+  text-transform: uppercase;
+  color: var(--bs-navbar-letter-color);
+}
+
+.moviesDates p {
+  color: var(--bs-navbar-letter-color);
+}
+
+.rowIndividualMovie {
+  display: flex;
+}
+
+.ratingStars {
+  color: var(--bs-primary-color) !important;
+  border-color: var(--bs-primary-color);
+}
+
+.divMinutesGenres {
+  display: flex;
+  justify-content: space-between;
+}
+
+.divMinutesGenres p {
+  display: inline;
+}
+
+/* .paragraphMovieGenres {
+  color: var(--bs-primary-color) !important;
+} */
+
+.btnBack {
+  display: block;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.btnBack a {
+  text-decoration: none;
+  border: 1px solid var(--bs-primary-color);
+  padding: 10px 15px;
+  /* color: var(--bs-letter-color); */
+  color: #ffe3e3;
+  background-color: var(--bs-primary-color);
+  border-radius: 5px;
+}
+
+.btnBack a:hover {
+  color: #ffe3e3;
+}

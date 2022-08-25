@@ -1,0 +1,23 @@
+.containerMoreInformation {
+  margin-top: 30px;
+}
+.hrAboutUS {
+  color: var(--bs-navbar-letter-color);
+}
+.paragraphAbousUs {
+  color: var(--bs-navbar-letter-color);
+  text-align: left;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+.primaryLetter {
+  color: var(--bs-primary-color);
+}
+
+.titleMoreInformation {
+  text-transform: uppercase;
+  color: var(--bs-navbar-letter-color);
+  text-align: left;
+  font-size: 1.5rem;
+}

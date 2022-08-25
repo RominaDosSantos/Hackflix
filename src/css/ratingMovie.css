@@ -1,0 +1,14 @@
+.ratingStars {
+  color: var(--bs-primary-color) !important;
+  border-color: var(--bs-primary-color);
+  vertical-align: top;
+  margin-left: 5px;
+}
+
+.ratingTypography {
+  color: var(--bs-letter-color);
+}
+
+.MuiRating-iconEmpty {
+  color: var(--bs-primary-color) !important;
+}

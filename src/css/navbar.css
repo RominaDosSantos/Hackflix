@@ -1,0 +1,51 @@
+.navbarAnchor {
+  text-decoration: none;
+  color: var(--bs-navbar-letter-color);
+}
+
+.navbarAnchor:hover {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.navbarAnchor:active {
+  color: var(--bs-primary-color);
+  background-color: #fff;
+}
+
+.dropdown-menu.show {
+  background-color: var(--bs-background-color);
+}
+
+#navbarPrincipal {
+  background-color: var(--bs-background-color);
+}
+
+#responsive-navbar-nav {
+  color: var(--bs-letter-color) !important;
+}
+
+#navbarHackflix {
+  color: var(--bs-primary-color);
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.searchNavbar {
+  color: var(--bs-primary-color);
+  text-decoration: none;
+  font-weight: bolder;
+}
+.divSearchNavbar:active {
+  background-color: #fff !important;
+}
+
+.searchNavbar:hover {
+  color: var(--bs-primary-color);
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: var(--bs-primary-color) !important;
+}

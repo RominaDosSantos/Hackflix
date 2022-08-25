@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import MovieList from "./components/MovieList";
+import NavbarPage from "./components/Navbar";
+import MovieDetails from "./components/MovieDetails";
+import { Routes, Route } from "react-router-dom";
+import NoMatch from "./components/NoMatch";
+import Contact from "./components/Contact";
+import AboutUs from "./components/AboutUs";
+import Search from "./components/Search";
+import Home from "./components/Home";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavbarPage />
+      <div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/buscar" element={<Search />} />
+          <Route path="/rating" element={<MovieList />} />
+          <Route path="/sobre-nosotros" element={<AboutUs />} />
+          <Route path="/contacto" element={<Contact />} />
+          <Route path="pelicula/:id" element={<MovieDetails />} />
+          <Route path="*" element={<NoMatch />} />
+        </Routes>
+      </div>
     </div>
   );
 }

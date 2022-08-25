@@ -1,0 +1,30 @@
+.titleGenrseCarousel {
+  text-align: left;
+}
+.genreWordCut {
+  color: #fff;
+}
+
+.genreWordCut .genreWordCutFirstLetter {
+  color: var(--bs-primary-color);
+}
+
+.carouselDiv {
+  margin-top: 20px;
+}
+
+.imgCarousel {
+  margin-right: 10px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+}
+
+.imgCarousel:hover {
+  -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  -o-transform: scale(0.5);
+  transform: scale(1.1);
+}

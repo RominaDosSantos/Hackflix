@@ -1,0 +1,22 @@
+#inputSearch {
+  background-color: #212529;
+  /* color: var(--bs-letter-color); */
+  color: var(--bs-letter-color);
+  padding: 15px 15px 15px 0;
+  font-size: 1.5rem;
+  border-color: #212529;
+  outline: none;
+}
+
+#buttonSearch {
+  background-color: #212529;
+  color: #fff;
+  border-color: #212529;
+}
+
+.divMenssageSearch {
+  color: var(--bs-navbar-letter-color);
+  margin-top: 40px;
+  display: inline-grid;
+  text-align: left;
+}
