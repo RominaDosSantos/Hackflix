@@ -20,3 +20,9 @@
   display: inline-grid;
   text-align: left;
 }
+
+.paragraphNoMoreResults {
+  color: var(--bs-letter-color);
+  font-size: 1.2rem;
+  margin-top: 15px;
+}

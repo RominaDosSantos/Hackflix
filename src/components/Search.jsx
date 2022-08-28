@@ -90,9 +90,6 @@ function Search() {
                 Intenta con el título de una película, o con un nombre
                 específico
               </li>
-              <li>
-                Intenta con un género, como comedia, romance, deportes o drama
-              </li>
             </ul>
           </div>
         </div>
@@ -107,6 +104,9 @@ function Search() {
             return <MovieIndividual key={movie.id} movie={movie} />;
           })}
         </div>
+        {hasMore === false && (
+          <p className="paragraphNoMoreResults">No hay mas resultados.</p>
+        )}
       </InfiniteScroll>
     </>
   );

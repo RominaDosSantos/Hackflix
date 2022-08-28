@@ -94,7 +94,7 @@ function MovieDetails() {
               </div>
               <span className="btnBack">
                 <Link to="/">
-                  <BsArrowLeft /> Volver
+                  <BsArrowLeft /> back
                 </Link>
               </span>
             </div>

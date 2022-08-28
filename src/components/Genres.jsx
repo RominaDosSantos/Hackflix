@@ -4,8 +4,9 @@ import { Link } from "react-router-dom";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Container from "react-bootstrap/Container";
-
 import "../css/genres.css";
+import { BsArrowRight } from "react-icons/bs";
+import { RotatingLines } from "react-loader-spinner";
 
 function Genres({ id, genre }) {
   const [movies, setMovies] = useState([]);
@@ -30,17 +31,17 @@ function Genres({ id, genre }) {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
       items: 6,
-      slidesToSlide: 3, // optional, default to 1.
+      slidesToSlide: 3,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
       items: 3,
-      slidesToSlide: 1, // optional, default to 1.
+      slidesToSlide: 1,
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
       items: 1,
-      slidesToSlide: 1, // optional, default to 1.
+      slidesToSlide: 1,
     },
   };
 
@@ -48,13 +49,21 @@ function Genres({ id, genre }) {
     <>
       <div style={{ padding: "20px 0 0 0" }}></div>
       <Container>
-        <div className="titleGenrseCarousel">
-          <h2 className="genreWordCut">
-            <span className="genreWordCutFirstLetter">
-              {genreWordCutFirstLetter}
-            </span>
-            {genreWordCut}
-          </h2>
+        <div className="flexGenresContainer">
+          <div className="titleGenrseCarousel">
+            <h2 className="genreWordCut">
+              <span className="genreWordCutFirstLetter">
+                {genreWordCutFirstLetter}
+              </span>
+              {genreWordCut}
+            </h2>
+          </div>
+          <div className="moreGenre">
+            <Link to={`/generos/${id}`}>
+              More
+              <BsArrowRight />
+            </Link>
+          </div>
         </div>
       </Container>
       <Carousel responsive={responsive} infinite={true}>

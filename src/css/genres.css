@@ -28,3 +28,25 @@
   -o-transform: scale(0.5);
   transform: scale(1.1);
 }
+
+.flexGenresContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.moreGenre {
+  text-decoration: none;
+  border: 1px solid var(--bs-primary-color);
+  padding: 10px 15px;
+  color: #ffe3e3;
+  background-color: var(--bs-primary-color);
+  border-radius: 5px;
+}
+.moreGenre a {
+  text-decoration: none;
+  color: #ffe3e3;
+}
+
+.moreGenre a:hover {
+  color: #ffe3e3;
+}

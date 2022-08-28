@@ -67,6 +67,9 @@ function MovieList() {
             </p>
           )}
         </div>
+        {hasMore === false && (
+          <p className="paragraphNoMoreResults">No hay mas resultados.</p>
+        )}
       </InfiniteScroll>
     )
   );
